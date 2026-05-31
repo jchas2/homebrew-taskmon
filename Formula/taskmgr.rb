@@ -1,10 +1,10 @@
 class Taskmgr < Formula
   desc "Task Manager for the command line"
   homepage "https://github.com/jchas2/taskmgr-cli"
-  version "1.5.2"
+  version "1.5.3"
 
   url "https://github.com/jchas2/taskmgr-cli/releases/download/v#{version}/taskmgr-#{version}-macos-arm64.tar.gz"
-  sha256 "b09157b2b45e9c321cb8013cd17d6825d1d3a6ac1d51fd4197cabd85e32d2c7b"
+  sha256 "90c2f118b7424f13c9c55806d45a1d35bf53d7aeedbd49633db5f30487804be7"
 
   def install
     bin.install "taskmgr"
