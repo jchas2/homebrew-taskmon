@@ -1,23 +1,23 @@
-# Homebrew Tap for taskmgr
+# Homebrew Tap for Task Monitor
 
-This is the official Homebrew tap for [taskmgr](https://github.com/jchas2/taskmgr-cli), a task manager for the command line.
+This is the official Homebrew tap for [taskmon](https://github.com/jchas2/taskmon), a task monitor for the command line.
 
 ## Installation
 
 ```bash
-brew tap jchas2/taskmgr
-brew install taskmgr
+brew tap jchas2/taskmon
+brew install taskmon
 ```
 
 ## Usage
 
-After installation, run taskmgr with root privileges:
+After installation, run taskmon:
 
 ```bash
-sudo taskmgr
+taskmon
 ```
 
-For more information, see the [main repository](https://github.com/jchas2/taskmgr-cli).
+For more information, see the [main repository](https://github.com/jchas2/taskmon).
 
 ## Updating
 
@@ -27,5 +27,5 @@ To update to the latest version:
 
 ```bash
 brew update
-brew upgrade taskmgr
+brew upgrade taskmon
 ```
